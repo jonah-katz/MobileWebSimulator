@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Mobile Web Simulator</title>
+  <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+
+    <div id="left-col">
+        <input id="url" typt="text" placeholder="enter url" />
+        <ul id="devices">
+            <li class="iphone-5 selected">iPhone-5 (9:16)</li>
+            <li class="iphone-5-l">iPhone-5 (16:9)</li>
+            <li class="iphone-4">iPhone-4 (2:3)</li>
+            <li class="iphone-4-l">iPhone-4 (3:2)</li>
+            <li class="ipad">iPad (3:4)</li>
+            <li class="ipad-l">iPad (4:3)</li>
+        </ul>
+    </div>
+    <div id="left-bot-col">
+        <h1>Mobile Web Simulator</h1>
+        <p>test the responsiveness of your website</p>
+        <p class="crafted">made by <a target="_blank" href="http://jonahkatz.me">Jonah Katz</a></p>
+        <p class="crafted">view on <a href="#">Github</a></p>
+        <div class="fb-like" data-href="http://mobilewebsim.jonahkatz.me" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-font="segoe ui"></div>
+    </div>
+    <div id="right-col"</div>
+       <div class="iphone-5" id="device">
+           <iframe id="frame" class="iphone-5" src=""></iframe>
+       </div>
+    </div>
+
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=289798664467730";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+</body>
+</html>

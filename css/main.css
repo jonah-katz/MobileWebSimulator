@@ -1,0 +1,239 @@
+
+body {
+    background-color: #464646;
+}
+
+/* left col */
+#left-col {
+    float:left;
+    padding: 30px;
+    background-color: #747474;
+    width: 200px;
+    z-index: 1;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+#url {
+    height: 30PX;
+    width: 100%;
+    padding: 5PX;
+    margin-left: 0PX;
+    background-color: #F0FFEF;
+    border: 1px solid #C0C0C0;
+    font-size: 20px;
+    color: #2C6C9E;
+    font-family: 'Noto Sans', sans-serif;
+
+
+}
+
+/* devices buttons */ 
+#devices {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+#devices li {
+    font-family: 'Noto Sans', sans-serif;
+    cursor: pointer;
+    padding: 2px 4px;
+    margin:0px auto;
+    list-style-type: none;
+    color: #FFF;
+    background-color: #858585;
+    margin-top: 10px;
+    border: 1px solid #777272;
+    width: 150px;
+}
+
+#devices li:hover {
+    background-color: #B1ADAD;
+    border: 1px solid #FFFDFD;
+}
+
+#devices li.selected {
+    background-color: #4B4F69;
+}
+
+/* device */
+#right-col {
+    margin-left: 300px;
+}
+
+#device {
+    z-index: 2;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+#frame {
+    border:0px;
+}
+
+div.iphone-5 {
+    width:288px;
+    height:512px;
+    margin-left:-144px; /*half of width*/
+    background-image: url('../images/devices/iphone-5.png');
+    background-repeat: no-repeat;
+    padding-left:31px;
+    padding-right:23px;
+    padding-top:108px;
+    padding-bottom:103px;
+}
+
+iframe.iphone-5 {
+    width:288px;
+    height:512px;
+}
+
+#devices.iphone-5 {
+
+}
+
+div.iphone-5-l {
+    height:288px;
+    width:512px;
+    margin-left:-256px; /*half of width*/
+    background-image: url('../images/devices/iphone-5-l.png');
+    background-repeat: no-repeat;
+    padding-left:108px;
+    padding-right:103px;
+    padding-top:23px;
+    padding-bottom:31px;
+}
+
+iframe.iphone-5-l {
+    height:288px;
+    width:512px;
+}
+
+#devices.iphone-5-l {
+
+}
+
+div.iphone-4 {
+    width:288px;
+    height:432px;
+    margin-left:-144px; /*half of width*/
+    background-image: url('../images/devices/iphone-4.png');
+    background-repeat: no-repeat;
+    padding-left:29px;
+    padding-right:35px;
+    padding-top:118px;
+    padding-bottom:179px;
+}
+
+iframe.iphone-4 {
+    width:288px;
+    height:432px;
+}
+
+#devices.iphone-4 {
+
+}
+
+div.iphone-4-l {
+    width:432px;
+    height:288px;
+    margin-left:-216px; /*half of width*/
+    background-image: url('../images/devices/iphone-4-l.png');
+    background-repeat: no-repeat;
+    padding-left:116px;
+    padding-right:179px;
+    padding-top:28px;
+    padding-bottom:29px;
+}
+
+iframe.iphone-4-l {
+    width:432px;
+    height:288px;
+}
+
+#devices.iphone-4-l {
+
+}
+
+div.ipad {
+    width:582px;
+    height:775px;
+    margin-left:-291px; /*half of width*/
+    background-image: url('../images/devices/ipad.png');
+    background-repeat: no-repeat;
+    padding-left:38px;
+    padding-right:36px;
+    padding-top:99px;
+    padding-bottom:102px;
+}
+
+iframe.ipad {
+    width:582px;
+    height:775px;
+}
+
+#devices.ipad {
+
+}
+
+div.ipad-l {
+    width:775px;
+    height:582px;
+    margin-left:-387px; /*half of width*/
+    background-image: url('../images/devices/ipad-l.png');
+    background-repeat: no-repeat;
+/*    padding-left:38px;
+    padding-right:36px;
+    padding-top:99px;
+    padding-bottom:102px;*/
+    padding-left:99px;
+    padding-right:102px;
+    padding-top:36px;
+    padding-bottom:38px;
+}
+
+iframe.ipad-l {
+    width:775px;
+    height:582px;
+}
+
+#devices.ipad-l {
+
+}
+
+
+/* right col */
+#left-bot-col {
+    padding: 30px;
+    width: 200px;
+    z-index: 1;
+    margin-top:20px;
+    margin-left:20px;
+    border:1px solid white;
+    float:left;
+    clear:both;
+}
+
+
+#left-bot-col h1 {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#left-bot-col p {
+    color: #E7E7E7;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#left-bot-col p.crafted {
+    font-size:13px;
+}
+
+#left-bot-col p.crafted a{
+    color: #B0D6FA;
+    font-size:15px;
+}
+
