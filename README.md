@@ -1,4 +1,4 @@
 MobileWebSimulator
 ==================
 
-Test the responsiveness of your website. Live site at http://mobilewebsim.jonahkatz.me . Contribute with suggestions, more features and more devices. 
+Test the responsiveness of your website. https://news.ycombinator.com/item?id=5928254 
